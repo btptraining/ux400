@@ -1,0 +1,92 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ibm.simpleapp.controller.Main">
+
+    <!-- <l:VerticalLayout id="idVL" width="9rem">
+    <l:content>
+    <Text text="Name:"/>
+    <Input id="nameInput" value="textVertical"/>
+    <Button text="Submit"/>
+    </l:content>
+    </l:VerticalLayout>
+
+<l:HorizontalLayout >
+<l:content>
+<Text text="Name:"/>
+<Input/>
+<Button text="Submit" press="onSubmitHL"/>
+</l:content>
+</l:HorizontalLayout> -->
+<!-- 
+<l:Grid defaultSpan="XL3 L12 M6 S12" id="idGrid">
+
+<Input value="Text"/>
+</l:Grid>
+<Button text="AddContent" press="onPressGrid"/> -->
+
+
+<!-- <l:ResponsiveFlowLayout >
+<Text text="Test">
+ <layoutData>
+        <l:ResponsiveFlowLayoutData linebreak="false" weight="2" margin="false">
+        </l:ResponsiveFlowLayoutData>
+
+     </layoutData>
+</Text>
+<Input value="1234">
+    <layoutData>
+        <l:ResponsiveFlowLayoutData linebreak="true" weight="1" margin="false">
+        </l:ResponsiveFlowLayoutData>
+     </layoutData>
+</Input>
+
+</l:ResponsiveFlowLayout> -->
+<!-- <l:VerticalLayout id="idVL" width="20rem">
+    <l:content>
+
+    </l:content>
+</l:VerticalLayout> -->
+<!-- 
+<f:SimpleForm columnsL="2" columnsM="2" labelSpanL="2" emptySpanL="0" maxContainerCols="3" layout="ResponsiveLayout"
+>
+<f:content>
+<core:Title text="Personal Data"/>
+<Label text="Label for text1"/>
+<Input value=""/>
+
+
+
+<core:Title text="Office data"/>
+<Label text="Label for text2"/>
+<Input value=""/>
+<core:Title/>
+<Label text="Label for text3"/>
+<Input value=""/>
+
+</f:content>
+
+</f:SimpleForm> -->
+
+<!-- <core:Fragment fragmentName="com.ibm.simpleapp.fragments.InputHTML" type="HTML"/> 
+<core:Fragment fragmentName="com.ibm.simpleapp.fragments.Input" type="XML"/> 
+<core:Fragment fragmentName="com.ibm.simpleapp.fragments.InputJS" type="JS"/>  -->
+ <l:VerticalLayout id="idVL" width="9rem">
+    <l:content>
+
+    </l:content>
+    </l:VerticalLayout>
+
+    <Button text="Add to VL" press="onPressFrgamnet"/>
+
+    <f:SimpleForm id="idSimpleform" columnsL="2" columnsM="2" labelSpanL="2" emptySpanL="0" maxContainerCols="3" layout="ResponsiveLayout"
+>
+
+<Text text="{empdata>emp}"/>
+<Text text="{empdata>name}"/>
+<Text text="{empdata>deatil}"/>
+<f:content>
+
+
+
+</f:content>
+
+</f:SimpleForm> 
+</mvc:View>
